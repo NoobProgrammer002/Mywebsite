@@ -1,0 +1,390 @@
+* {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-family: 'Staatliches', cursive;
+}
+
+.navbar{
+    /* display: flex;
+    flex-direction: column; */
+    display: flex;
+    align-items: center;
+    /* background-image: url(background.jpg); */
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    position: relative;
+    height: 45px;
+    
+    
+}
+#active {
+    /* border: 2px solid white; */
+    /* border-radius: 20px; */
+    /* background-color: white; */
+    color: rgb(83, 80, 80);
+    font-family: 'Blinker', sans-serif;
+    
+}
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+    
+}
+nav .navul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-top: -1px
+    
+}
+nav ul .list{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 10px 35px;
+    color: white;
+    font-size: 20px;
+    
+    
+    
+    
+}
+nav ul .list:hover{
+
+    cursor: pointer;
+    color: rgb(83, 80, 80);
+    transition: 0.10s ease;
+    /* border: 2px solid white; */
+    /* border-radius: 19px; */
+    /* background-color: rgb(212, 207, 207); */
+    /* border: 2px solid rgb(212, 207, 207); */
+    
+}
+nav img{
+    height: 100px;
+    width: 115px;
+    margin-top: -1px;
+    filter: invert(100%);
+    cursor: pointer;
+
+    
+    
+}
+#welcome{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 2px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#welcome::before{
+    content: "";
+    background: url(bg.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 162%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    /* position: fixed; */
+    /* top: 45px; */
+    /* margin-top: -163px ;
+    padding: 0px 0px;
+     */
+    
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 7px;
+    margin: 3px;
+    margin-top: 12px;
+    
+    
+}
+.h-primary{
+    color: black;
+    font-size: 4.3rem;
+    
+}
+#home p{
+
+    margin-top: 20px;
+    size: 1.1px;
+    font-size: 27.9px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* background-color: black; */
+    padding: 3px 2px;
+
+    
+   
+}
+.btn button{
+    size: 20px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 17px;
+    padding: 1px 10px 1px;
+    font-size: 1.6rem;
+}
+.btn button:hover{
+    background-color: rgb(192, 190, 190);
+    border: 2px solid rgb(192, 190, 190);
+    
+    cursor: pointer;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 389px;
+    font-size: 2.5rem;
+    overflow: none;
+    position: absolute;
+    margin-left: 54px;
+    
+
+    
+}
+.services h5{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-family: 'Blinker', sans-serif;
+
+    
+}
+.image1{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 450px;
+    box-shadow: 1.34px 9px 18px;
+    width: 452px;
+    
+    
+}
+.image2{
+    margin-left: 558px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: -238px;
+    box-shadow: 1.34px 9px 18px;
+    width: 452px;
+}
+.image3{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: -238px;
+    margin-left: 1060px;
+    box-shadow: 1.34px 9px 18px;
+    width: 452px;
+    
+    
+}
+#img1txt{
+    margin-left: 50px;
+    margin-top: 15px;
+
+}
+#img1txt span{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+#img1txt span span{
+    font-size: 16px;
+    
+}
+.image1:hover{
+    cursor: pointer;
+}
+#img2txt{
+    margin-left: 507px;
+    margin-top: -56px;
+}
+#img3txt{
+    margin-left: 1009px;
+    margin-top: -56px;
+    
+}
+
+
+/* .neew{
+    display: flex;
+    flex-direction: row;
+    margin-top: 123px;
+}
+.neew .new img{
+    height: 80%;
+    width: 80%;
+    
+}
+.neew .new h5{
+    font-family: 'Blinker', sans-serif;
+    font-size: 2.5rem;
+    
+    margin-bottom: 10px;
+}
+.neew span{
+    display: flex;
+    flex-direction: row;
+    margin-top: 500px;
+}    */
+.new{
+    margin-left: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 160px;
+    box-shadow: 1.34px 9px 18px;
+    width: 558px;
+}
+#newtxt{
+    
+    margin-top: 15px;
+}
+#newtxt span span{
+    font-size: 16px;
+}
+#newtxt #tyu{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: -573px;
+    
+
+}
+#newtxt #tyu h5{
+    font-family: 'Blinker', sans-serif;
+    font-size: 2.5rem;
+}
+
+#newtxt #tyu h5 hr{
+    color: blue;
+}
+
+.container section{
+    display: flex;
+    /* flex-direction: start; */
+    margin-top: 100px;
+    margin-left: -47px;
+    
+}    
+.container section{
+    background-color: #efefef;
+    height: 200px;
+    width: 1580px;
+}
+.container section h2{
+    font-family: 'Blinker', sans-serif;
+    margin-top: 96px;
+    margin-left: 130px;
+    font-size: 2rem;
+    text-shadow: 1px 1px 7px;
+}
+.info{
+    display: flex;
+    margin-top: -160px;
+
+    
+
+}
+.info span p{
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-right: 13px;
+    padding-left: 311px;
+    margin-top: -34px;
+    margin-left: 300px;
+    margin-right: 34px;
+    
+    
+    
+    
+}
+.info span{
+    margin-left: 0px;
+    margin-right: 34px;
+    padding: 23px;
+}
+
+#contact{
+    position: relative;
+    background-color: #3232aa;
+    width: 1583px;
+    margin-left: -50px;
+    height: 450px;
+    
+    
+    
+}
+
+
+#contact-box input{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    box-shadow: 1.34px 8px 13px;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box form{
+    width: 40%;
+    font-family: 'Blinker', sans-serif;
+    margin-top: 76px;
+    padding: 2px 3px;
+    margin-left: 45px;
+}
+#contact-box form label{
+    font-size: 1.3rem;
+    font-family: 'Blinker', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+#contact h1{
+    font-family: 'Blinker', sans-serif;
+    color: white;
+    margin-left: 656px;
+    font-size: 4rem;
+    text-shadow: 1px 2px 9px;
+}
+#contact-box form .form-group{
+    padding: 7px 8px;
+}
+
+/* .foot{
+    margin-left: 600px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+   
+} */

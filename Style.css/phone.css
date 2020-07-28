@@ -1,0 +1,37 @@
+
+.image1{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 450px;
+    
+    
+}
+.image2{
+    margin-left: 558px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: -238px;
+}
+.image3{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: -238px;
+    margin-left: 1060px;
+    
+}
+#img1txt{
+    margin-left: 50px;
+    margin-top: 15px;
+
+}
+#img1txt span{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+#img1txt span span{
+    font-size: 16px;
